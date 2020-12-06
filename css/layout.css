@@ -1,14 +1,16 @@
 body{
 	background-color:#e0e0e0;
 	margin:0px ;
+	font-family: "Opens-Sans";
 }
 #minha-foto{
 	margin-left: 480px;
 	margin-top: 30px;
-	border: 2px solid black;
+	border: 2px solid #e0e0e0;
+	border-radius: 150px;
 }
 #foto-codigo{
-	margin-left: 420px;
+	margin-left: 450px;
 	border: 2px solid black;
 }
 section#topo{
@@ -16,14 +18,28 @@ section#topo{
 	padding-bottom: 20px;
 }
 .texto{
-	margin-left: 500px;
+	margin-left: 530px;
 }
 .posts{
-	margin-left: 550px;
+	margin-left: 590px;
 }
-p,footer ul li{
+p,footer ul li,#contatos{
 	margin-left: 200px;
+	list-style-type: none;
 }
+
 section#meio{
 	width: 80%;
+}
+a:hover{
+	color: red;
+}
+#tituPrincipal{
+	text-decoration: underline;
+	letter-spacing: 1px
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #00e676;
 }
